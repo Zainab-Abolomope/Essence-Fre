@@ -1,0 +1,179 @@
+*{
+    font-family: sans-serif !important;
+}
+
+.header-row-bg{
+    background-color: #0d1128;
+}
+
+.header-input{
+    border: 1px solid rgba(255, 255, 255, 0.524);
+    background-color: #0d1128;
+    color: white;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-radius: 25px;
+}
+
+.header-input::placeholder{
+    color: white;
+}
+
+.imageOne{
+    background:linear-gradient(45deg, #0d1128 0%, #fd610061 100%), url("image/banner1.webp") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+.imageTwo{
+    background:linear-gradient(45deg, #0d1128 0%, rgba(253, 97, 0, 0.318)00%), url("image/banner2.webp") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+.imageThree{
+    background:linear-gradient(45deg, #0d1128 0%, #fd610062 100%), url("image/banner3.webp") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+
+.banner-content{
+    padding: 12% 0;
+}
+
+.card-holder{
+    padding: 20px;
+}
+
+.about-section{
+    background-image: url(image/about.jpg.webp);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+
+
+.icon-p{
+    background-color: #fd5f00;
+    padding: 25px 28px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.about-us{
+    background:linear-gradient(45deg, #0d1128 0%, #fd610061 100%), url(image/banner3.webp);
+    background-position: center;
+    background-size: center;
+    background-attachment: fixed;
+    /* height: 120vh; */
+    /* position: relative; */
+}
+
+
+.play-btn{
+    background: white;
+    width: fit-content;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+
+.play-btn i{
+    color: #fd5f00;
+    font-size: 25px;
+    padding: 30px 34px;
+}
+
+.video-column{
+    position: relative;
+}
+
+
+.card-btn{
+    background-color: #fd5f00;
+    padding: 7px 14px;
+    border-radius: 25px;
+}
+
+.courses-title{
+    width:70%;
+}
+
+.teacher-name{
+    /* color: #fd5f00; */
+    transition: all 0.2s ease-in;
+}
+.role{
+    color: #fd5f00;
+}
+
+.teacher-p{
+   display: none;
+   justify-content: center;
+   align-items: center;
+   transition:  0.5s ease-in-out;
+}
+
+.card-hover:hover .teacher-p{
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+    color: #fd5f00;
+}
+
+.card-hover:hover .teacher-name{
+    color: #fd5f00 ;
+}
+
+.teacher-image-holder{
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}
+
+.teacher-image{
+    transition: 0.5s ease-in-out;
+}
+
+.card-hover:hover .teacher-image{
+    scale: 1.1;
+    
+}
+
+.input-border{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey !important;
+    outline: none;
+    width: 100%;
+}
+
+
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #333; /* Color of inactive dots */
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.owl-dot.active {
+    background: blue; /* Change to your desired color for the active dot (e.g., blue) */
+}
